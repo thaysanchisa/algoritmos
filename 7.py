@@ -9,10 +9,11 @@ dipse= int(input("Digite qualquer número, abestado: "))
 
 if (dipse == 1):
     resultado = "Entrou com valor 1, melhore"
-if (dipse == 2):
+elif (dipse == 2):
     resultado = "Entrou com valor de 2, aff"
-if (dipse < 1):
+elif (dipse < 1):
     resultado = "Entrou com valor muito baixo, desiste menó"
-if (dipse > 2):
+elif (dipse > 2):
     resultado = "Entrou com valor muito alto, parabéns está uma bosta"
+
 print(resultado)
