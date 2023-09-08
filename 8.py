@@ -8,9 +8,8 @@ nota3= (int(input("Nota da AV3: ")))
 
 soma=nota1+nota2+nota3
 media = soma / 3
-
 if(media >= 6):
-    resultado = "Aprovado"
+    resultado = "Aprovado! Parabéns! :D"
 elif(media < 6):
-    resultado = "Reprovado"
+    resultado = "Reprovado. Estude mais!"
 print(resultado)
